@@ -47,6 +47,9 @@
             annotationView.fillColor = [UIColor colorWithRed:24.f/255.f green:137.f/255.f blue:234.f/255.f alpha:1.0];
             //单个脉冲圈strokeColor
             annotationView.strokeColor = [UIColor colorWithRed:35.f/255.f green:35.f/255.f blue:255.f/255.f alpha:1.0];
+            
+            //更改设置后重新开始动画
+            [annotationView startPulseAnimation];
         }
         return annotationView;
     }

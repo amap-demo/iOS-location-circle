@@ -14,10 +14,18 @@
 		3A574BB71DE57F9600AB73AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A574BB61DE57F9600AB73AB /* Assets.xcassets */; };
 		3A574BBA1DE57F9600AB73AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A574BB81DE57F9600AB73AB /* LaunchScreen.storyboard */; };
 		3A574BC31DE5843A00AB73AB /* RadialCircleAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A574BC21DE5843A00AB73AB /* RadialCircleAnnotationView.m */; };
+		3A574BEE1DF6B58300AB73AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A574BED1DF6B58300AB73AB /* AppDelegate.swift */; };
+		3A574BF01DF6B58300AB73AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A574BEF1DF6B58300AB73AB /* ViewController.swift */; };
+		3A574BF31DF6B58300AB73AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A574BF11DF6B58300AB73AB /* Main.storyboard */; };
+		3A574BF51DF6B58300AB73AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A574BF41DF6B58300AB73AB /* Assets.xcassets */; };
+		3A574BF81DF6B58300AB73AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A574BF61DF6B58300AB73AB /* LaunchScreen.storyboard */; };
+		3A574C011DF6CDC600AB73AB /* RadialCircleAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A574C001DF6CDC600AB73AB /* RadialCircleAnnotationView.swift */; };
+		8284CA0C499B36105987C914 /* libPods-AMapRadialCircleDemo-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07970181F37B3E52BB88DACE /* libPods-AMapRadialCircleDemo-swift.a */; };
 		C0CBDBD31F782FA01D744A5D /* libPods-AMapRadialCircleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F18B64D93DCB0CDDB92681B /* libPods-AMapRadialCircleDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07970181F37B3E52BB88DACE /* libPods-AMapRadialCircleDemo-swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMapRadialCircleDemo-swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F18B64D93DCB0CDDB92681B /* libPods-AMapRadialCircleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMapRadialCircleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		387340A5FCA7A7E2B00CCC67 /* Pods-AMapRadialCircleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapRadialCircleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMapRadialCircleDemo/Pods-AMapRadialCircleDemo.release.xcconfig"; sourceTree = "<group>"; };
 		3A574BA71DE57F9600AB73AB /* AMapRadialCircleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMapRadialCircleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,7 +40,18 @@
 		3A574BBB1DE57F9600AB73AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A574BC11DE5843A00AB73AB /* RadialCircleAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialCircleAnnotationView.h; sourceTree = "<group>"; };
 		3A574BC21DE5843A00AB73AB /* RadialCircleAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialCircleAnnotationView.m; sourceTree = "<group>"; };
+		3A574BEB1DF6B58200AB73AB /* AMapRadialCircleDemo-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AMapRadialCircleDemo-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A574BED1DF6B58300AB73AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A574BEF1DF6B58300AB73AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A574BF21DF6B58300AB73AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A574BF41DF6B58300AB73AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A574BF71DF6B58300AB73AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A574BF91DF6B58300AB73AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A574BFD1DF6B65300AB73AB /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A574C001DF6CDC600AB73AB /* RadialCircleAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialCircleAnnotationView.swift; sourceTree = "<group>"; };
 		711D2E074078F3EC3669E6A2 /* Pods-AMapRadialCircleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapRadialCircleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMapRadialCircleDemo/Pods-AMapRadialCircleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ABB779705F259109227D172D /* Pods-AMapRadialCircleDemo-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapRadialCircleDemo-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMapRadialCircleDemo-swift/Pods-AMapRadialCircleDemo-swift.release.xcconfig"; sourceTree = "<group>"; };
+		FE524B481FF9AEDCA29B5B3F /* Pods-AMapRadialCircleDemo-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapRadialCircleDemo-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMapRadialCircleDemo-swift/Pods-AMapRadialCircleDemo-swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +63,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A574BE81DF6B58200AB73AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8284CA0C499B36105987C914 /* libPods-AMapRadialCircleDemo-swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -51,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				3A574BA91DE57F9600AB73AB /* AMapRadialCircleDemo */,
+				3A574BEC1DF6B58300AB73AB /* AMapRadialCircleDemo-swift */,
 				3A574BA81DE57F9600AB73AB /* Products */,
 				49567976B049B8935C56BD55 /* Pods */,
 				C8FA68788EA28F2B05DFF8A3 /* Frameworks */,
@@ -61,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				3A574BA71DE57F9600AB73AB /* AMapRadialCircleDemo.app */,
+				3A574BEB1DF6B58200AB73AB /* AMapRadialCircleDemo-swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,11 +120,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3A574BEC1DF6B58300AB73AB /* AMapRadialCircleDemo-swift */ = {
+			isa = PBXGroup;
+			children = (
+				3A574BED1DF6B58300AB73AB /* AppDelegate.swift */,
+				3A574BEF1DF6B58300AB73AB /* ViewController.swift */,
+				3A574C001DF6CDC600AB73AB /* RadialCircleAnnotationView.swift */,
+				3A574BFD1DF6B65300AB73AB /* Swift-Bridging-Header.h */,
+				3A574BF11DF6B58300AB73AB /* Main.storyboard */,
+				3A574BF41DF6B58300AB73AB /* Assets.xcassets */,
+				3A574BF61DF6B58300AB73AB /* LaunchScreen.storyboard */,
+				3A574BF91DF6B58300AB73AB /* Info.plist */,
+			);
+			path = "AMapRadialCircleDemo-swift";
+			sourceTree = "<group>";
+		};
 		49567976B049B8935C56BD55 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				711D2E074078F3EC3669E6A2 /* Pods-AMapRadialCircleDemo.debug.xcconfig */,
 				387340A5FCA7A7E2B00CCC67 /* Pods-AMapRadialCircleDemo.release.xcconfig */,
+				FE524B481FF9AEDCA29B5B3F /* Pods-AMapRadialCircleDemo-swift.debug.xcconfig */,
+				ABB779705F259109227D172D /* Pods-AMapRadialCircleDemo-swift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -104,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				0F18B64D93DCB0CDDB92681B /* libPods-AMapRadialCircleDemo.a */,
+				07970181F37B3E52BB88DACE /* libPods-AMapRadialCircleDemo-swift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,16 +178,42 @@
 			productReference = 3A574BA71DE57F9600AB73AB /* AMapRadialCircleDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3A574BEA1DF6B58200AB73AB /* AMapRadialCircleDemo-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A574BFC1DF6B58300AB73AB /* Build configuration list for PBXNativeTarget "AMapRadialCircleDemo-swift" */;
+			buildPhases = (
+				AB9F4CDF767F013F6FC16817 /* [CP] Check Pods Manifest.lock */,
+				3A574BE71DF6B58200AB73AB /* Sources */,
+				3A574BE81DF6B58200AB73AB /* Frameworks */,
+				3A574BE91DF6B58200AB73AB /* Resources */,
+				E2F46A11F8A5B172FF23E5EC /* [CP] Embed Pods Frameworks */,
+				905C395F87C54AE19F58A399 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AMapRadialCircleDemo-swift";
+			productName = "AMapRadialCircleDemo-swift";
+			productReference = 3A574BEB1DF6B58200AB73AB /* AMapRadialCircleDemo-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3A574B9F1DE57F9600AB73AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = AutoNavi;
 				TargetAttributes = {
 					3A574BA61DE57F9600AB73AB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+					};
+					3A574BEA1DF6B58200AB73AB = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = YMJ372W38W;
 						ProvisioningStyle = Manual;
@@ -161,6 +234,7 @@
 			projectRoot = "";
 			targets = (
 				3A574BA61DE57F9600AB73AB /* AMapRadialCircleDemo */,
+				3A574BEA1DF6B58200AB73AB /* AMapRadialCircleDemo-swift */,
 			);
 		};
 /* End PBXProject section */
@@ -173,6 +247,16 @@
 				3A574BBA1DE57F9600AB73AB /* LaunchScreen.storyboard in Resources */,
 				3A574BB71DE57F9600AB73AB /* Assets.xcassets in Resources */,
 				3A574BB51DE57F9600AB73AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A574BE91DF6B58200AB73AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A574BF81DF6B58300AB73AB /* LaunchScreen.storyboard in Resources */,
+				3A574BF51DF6B58300AB73AB /* Assets.xcassets in Resources */,
+				3A574BF31DF6B58300AB73AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +290,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		905C395F87C54AE19F58A399 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMapRadialCircleDemo-swift/Pods-AMapRadialCircleDemo-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB9F4CDF767F013F6FC16817 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2F46A11F8A5B172FF23E5EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMapRadialCircleDemo-swift/Pods-AMapRadialCircleDemo-swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FED4408EE5C2E12066EEF770 /* [CP] Copy Pods Resources */ = {
@@ -238,6 +367,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A574BE71DF6B58200AB73AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A574C011DF6CDC600AB73AB /* RadialCircleAnnotationView.swift in Sources */,
+				3A574BF01DF6B58300AB73AB /* ViewController.swift in Sources */,
+				3A574BEE1DF6B58300AB73AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -253,6 +392,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3A574BB91DE57F9600AB73AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3A574BF11DF6B58300AB73AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A574BF21DF6B58300AB73AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A574BF61DF6B58300AB73AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A574BF71DF6B58300AB73AB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -353,13 +508,14 @@
 			baseConfigurationReference = 711D2E074078F3EC3669E6A2 /* Pods-AMapRadialCircleDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = YMJ372W38W;
 				INFOPLIST_FILE = AMapRadialCircleDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.AMapRadialCircleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7ec0f6dc-8d72-4c9c-95d3-5ff2c0825720";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
 				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
 			};
 			name = Debug;
@@ -369,12 +525,50 @@
 			baseConfigurationReference = 387340A5FCA7A7E2B00CCC67 /* Pods-AMapRadialCircleDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AMapRadialCircleDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.AMapRadialCircleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A574BFA1DF6B58300AB73AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE524B481FF9AEDCA29B5B3F /* Pods-AMapRadialCircleDemo-swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "AMapRadialCircleDemo-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.AMapRadialCircleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "./AMapRadialCircleDemo-swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3A574BFB1DF6B58300AB73AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB779705F259109227D172D /* Pods-AMapRadialCircleDemo-swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "AMapRadialCircleDemo-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.AMapRadialCircleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./AMapRadialCircleDemo-swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -395,6 +589,15 @@
 			buildConfigurations = (
 				3A574BBF1DE57F9600AB73AB /* Debug */,
 				3A574BC01DE57F9600AB73AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A574BFC1DF6B58300AB73AB /* Build configuration list for PBXNativeTarget "AMapRadialCircleDemo-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A574BFA1DF6B58300AB73AB /* Debug */,
+				3A574BFB1DF6B58300AB73AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
