@@ -27,13 +27,20 @@ class ViewController: UIViewController, MAMapViewDelegate {
             
             annotationView?.canShowCallout  = true
             
+            //脉冲圈个数
             annotationView?.pulseCount = 4
+            //单个脉冲圈动画时长
             annotationView?.animationDuration = 8.0
+            //单个脉冲圈起始直径
             annotationView?.baseDiameter = 8.0
+            //单个脉冲圈缩放比例
             annotationView?.scale = 30.0
+            //单个脉冲圈fillColor
             annotationView?.fillColor = UIColor(red: 24.0/255.0, green: 137.0/255.0, blue: 234.0/255.0, alpha: 1.0)
+            //单个脉冲圈strokeColor
             annotationView?.strokeColor = UIColor(red: 35.0/255.0, green: 35.0/255.0, blue: 255.0/255.0, alpha: 1.0)
             
+            //更改设置后重新开始动画
             annotationView?.startPulseAnimation()
             
             return annotationView
