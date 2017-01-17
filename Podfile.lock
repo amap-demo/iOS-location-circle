@@ -1,14 +1,14 @@
 PODS:
-  - AMap2DMap (4.4.0):
-    - AMapFoundation (~> 1.2)
-  - AMapFoundation (1.3.2)
+  - AMap2DMap (4.5.0):
+    - AMapFoundation (~> 1.3)
+  - AMapFoundation (1.3.3)
 
 DEPENDENCIES:
   - AMap2DMap
 
 SPEC CHECKSUMS:
-  AMap2DMap: 5e310b546e93776462cf5a561cc74bafd6acee58
-  AMapFoundation: 843dc27b2c02bc0bc2ef3346bb3dd0456cf64dbb
+  AMap2DMap: 6033c7c75c0157e8701bed57fa4f05e5e45c9f91
+  AMapFoundation: c086329a1f19afec00e4c197863665235eb43dc2
 
 PODFILE CHECKSUM: 60f1e068b6a5f17d3386b607d1fef8d27d10d207
 

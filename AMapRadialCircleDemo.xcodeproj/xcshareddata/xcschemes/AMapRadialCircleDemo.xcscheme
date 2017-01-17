@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D9F65BFE1E2E0751002BBD5C"
+               BuildableName = "AMapRadialCircleDemoUITests.xctest"
+               BlueprintName = "AMapRadialCircleDemoUITests"
+               ReferencedContainer = "container:AMapRadialCircleDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

@@ -81,9 +81,9 @@
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button setTitle:@"LockToScreen" forState:UIControlStateNormal];
-    [button setBackgroundColor:[UIColor whiteColor]];
+    [button setBackgroundColor:[UIColor darkGrayColor]];
     [button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    
+    button.showsTouchWhenHighlighted = YES;
     button.frame = CGRectMake(10, 80, 120, 40);
     [button addTarget:self action:@selector(lockBtnAction) forControlEvents:UIControlEventTouchUpInside];
     

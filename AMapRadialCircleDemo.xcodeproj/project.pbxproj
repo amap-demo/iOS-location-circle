@@ -22,7 +22,18 @@
 		3A574C011DF6CDC600AB73AB /* RadialCircleAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A574C001DF6CDC600AB73AB /* RadialCircleAnnotationView.swift */; };
 		8284CA0C499B36105987C914 /* libPods-AMapRadialCircleDemo-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07970181F37B3E52BB88DACE /* libPods-AMapRadialCircleDemo-swift.a */; };
 		C0CBDBD31F782FA01D744A5D /* libPods-AMapRadialCircleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F18B64D93DCB0CDDB92681B /* libPods-AMapRadialCircleDemo.a */; };
+		D9F65C021E2E0751002BBD5C /* AMapRadialCircleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F65C011E2E0751002BBD5C /* AMapRadialCircleDemoUITests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9F65C041E2E0751002BBD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A574B9F1DE57F9600AB73AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A574BA61DE57F9600AB73AB;
+			remoteInfo = AMapRadialCircleDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		07970181F37B3E52BB88DACE /* libPods-AMapRadialCircleDemo-swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMapRadialCircleDemo-swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +62,9 @@
 		3A574C001DF6CDC600AB73AB /* RadialCircleAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialCircleAnnotationView.swift; sourceTree = "<group>"; };
 		711D2E074078F3EC3669E6A2 /* Pods-AMapRadialCircleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapRadialCircleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMapRadialCircleDemo/Pods-AMapRadialCircleDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		ABB779705F259109227D172D /* Pods-AMapRadialCircleDemo-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapRadialCircleDemo-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMapRadialCircleDemo-swift/Pods-AMapRadialCircleDemo-swift.release.xcconfig"; sourceTree = "<group>"; };
+		D9F65BFF1E2E0751002BBD5C /* AMapRadialCircleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMapRadialCircleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F65C011E2E0751002BBD5C /* AMapRadialCircleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMapRadialCircleDemoUITests.m; sourceTree = "<group>"; };
+		D9F65C031E2E0751002BBD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE524B481FF9AEDCA29B5B3F /* Pods-AMapRadialCircleDemo-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMapRadialCircleDemo-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMapRadialCircleDemo-swift/Pods-AMapRadialCircleDemo-swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +85,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9F65BFC1E2E0751002BBD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +100,7 @@
 			children = (
 				3A574BA91DE57F9600AB73AB /* AMapRadialCircleDemo */,
 				3A574BEC1DF6B58300AB73AB /* AMapRadialCircleDemo-swift */,
+				D9F65C001E2E0751002BBD5C /* AMapRadialCircleDemoUITests */,
 				3A574BA81DE57F9600AB73AB /* Products */,
 				49567976B049B8935C56BD55 /* Pods */,
 				C8FA68788EA28F2B05DFF8A3 /* Frameworks */,
@@ -90,6 +112,7 @@
 			children = (
 				3A574BA71DE57F9600AB73AB /* AMapRadialCircleDemo.app */,
 				3A574BEB1DF6B58200AB73AB /* AMapRadialCircleDemo-swift.app */,
+				D9F65BFF1E2E0751002BBD5C /* AMapRadialCircleDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,6 +178,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D9F65C001E2E0751002BBD5C /* AMapRadialCircleDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9F65C011E2E0751002BBD5C /* AMapRadialCircleDemoUITests.m */,
+				D9F65C031E2E0751002BBD5C /* Info.plist */,
+			);
+			path = AMapRadialCircleDemoUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,6 +230,24 @@
 			productReference = 3A574BEB1DF6B58200AB73AB /* AMapRadialCircleDemo-swift.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D9F65BFE1E2E0751002BBD5C /* AMapRadialCircleDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F65C081E2E0751002BBD5C /* Build configuration list for PBXNativeTarget "AMapRadialCircleDemoUITests" */;
+			buildPhases = (
+				D9F65BFB1E2E0751002BBD5C /* Sources */,
+				D9F65BFC1E2E0751002BBD5C /* Frameworks */,
+				D9F65BFD1E2E0751002BBD5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9F65C051E2E0751002BBD5C /* PBXTargetDependency */,
+			);
+			name = AMapRadialCircleDemoUITests;
+			productName = AMapRadialCircleDemoUITests;
+			productReference = D9F65BFF1E2E0751002BBD5C /* AMapRadialCircleDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -218,6 +268,12 @@
 						DevelopmentTeam = YMJ372W38W;
 						ProvisioningStyle = Manual;
 					};
+					D9F65BFE1E2E0751002BBD5C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+						TestTargetID = 3A574BA61DE57F9600AB73AB;
+					};
 				};
 			};
 			buildConfigurationList = 3A574BA21DE57F9600AB73AB /* Build configuration list for PBXProject "AMapRadialCircleDemo" */;
@@ -235,6 +291,7 @@
 			targets = (
 				3A574BA61DE57F9600AB73AB /* AMapRadialCircleDemo */,
 				3A574BEA1DF6B58200AB73AB /* AMapRadialCircleDemo-swift */,
+				D9F65BFE1E2E0751002BBD5C /* AMapRadialCircleDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +314,13 @@
 				3A574BF81DF6B58300AB73AB /* LaunchScreen.storyboard in Resources */,
 				3A574BF51DF6B58300AB73AB /* Assets.xcassets in Resources */,
 				3A574BF31DF6B58300AB73AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F65BFD1E2E0751002BBD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +441,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9F65BFB1E2E0751002BBD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F65C021E2E0751002BBD5C /* AMapRadialCircleDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9F65C051E2E0751002BBD5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A574BA61DE57F9600AB73AB /* AMapRadialCircleDemo */;
+			targetProxy = D9F65C041E2E0751002BBD5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3A574BB31DE57F9600AB73AB /* Main.storyboard */ = {
@@ -577,6 +657,38 @@
 			};
 			name = Release;
 		};
+		D9F65C061E2E0751002BBD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = AMapRadialCircleDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.AMapRadialCircleDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				TEST_TARGET_NAME = AMapRadialCircleDemo;
+			};
+			name = Debug;
+		};
+		D9F65C071E2E0751002BBD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = AMapRadialCircleDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.AMapRadialCircleDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				TEST_TARGET_NAME = AMapRadialCircleDemo;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -606,6 +718,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D9F65C081E2E0751002BBD5C /* Build configuration list for PBXNativeTarget "AMapRadialCircleDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F65C061E2E0751002BBD5C /* Debug */,
+				D9F65C071E2E0751002BBD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
