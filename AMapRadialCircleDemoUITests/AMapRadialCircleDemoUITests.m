@@ -36,17 +36,20 @@
     
     XCUIApplication *app = [[XCUIApplication alloc] init];
     
-    XCUIElement *element = [[app.scrollViews childrenMatchingType:XCUIElementTypeOther] elementBoundByIndex:1];
+    XCUIElement *elementAMap = [[[[[[[[XCUIApplication alloc] init] childrenMatchingType:XCUIElementTypeWindow] elementBoundByIndex:0] childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther] elementBoundByIndex:1];
     
-    [element pinchWithScale:3 velocity:5];
+    sleep(1);
+
+    
+    [elementAMap pinchWithScale:3 velocity:5];
     
     sleep(1);
     
-    [element swipeRight];
+    [elementAMap swipeRight];
     
     sleep(1);
     
-    [element swipeLeft];
+    [elementAMap swipeLeft];
     
     
     XCUIElement *locktoscreenButton = app.buttons[@"LockToScreen"];
@@ -55,11 +58,11 @@
     
     sleep(1);
     
-    [element swipeRight];
+    [elementAMap swipeRight];
     
     sleep(1);
     
-    [element swipeLeft];
+    [elementAMap swipeLeft];
     
     sleep(2);
     
