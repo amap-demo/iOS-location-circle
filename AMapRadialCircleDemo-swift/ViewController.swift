@@ -81,7 +81,7 @@ class ViewController: UIViewController, MAMapViewDelegate {
         view.addSubview(button);
     }
     
-    func lockBtnAction() {
+    @objc func lockBtnAction() {
         annotaion.lockedScreenPoint = mapView.convert(annotaion.coordinate, toPointTo: view)
         annotaion.isLockedToScreen = !annotaion.isLockedToScreen
     }

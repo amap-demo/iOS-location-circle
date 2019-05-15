@@ -198,7 +198,6 @@
 				3A574BA31DE57F9600AB73AB /* Sources */,
 				3A574BA41DE57F9600AB73AB /* Frameworks */,
 				3A574BA51DE57F9600AB73AB /* Resources */,
-				3FAC1C5F988CDE01E4D2610C /* [CP] Embed Pods Frameworks */,
 				FED4408EE5C2E12066EEF770 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -218,7 +217,6 @@
 				3A574BE71DF6B58200AB73AB /* Sources */,
 				3A574BE81DF6B58200AB73AB /* Frameworks */,
 				3A574BE91DF6B58200AB73AB /* Resources */,
-				E2F46A11F8A5B172FF23E5EC /* [CP] Embed Pods Frameworks */,
 				905C395F87C54AE19F58A399 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -281,6 +279,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -327,21 +326,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3FAC1C5F988CDE01E4D2610C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMapRadialCircleDemo/Pods-AMapRadialCircleDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8CA48DF0EAE033BF9D5FABEC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,16 +350,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AMapRadialCircleDemo-swift/Pods-AMapRadialCircleDemo-swift-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AMapRadialCircleDemo-swift/Pods-AMapRadialCircleDemo-swift-resources.sh",
 				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMapRadialCircleDemo-swift/Pods-AMapRadialCircleDemo-swift-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AMapRadialCircleDemo-swift/Pods-AMapRadialCircleDemo-swift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AB9F4CDF767F013F6FC16817 /* [CP] Check Pods Manifest.lock */ = {
@@ -396,37 +380,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E2F46A11F8A5B172FF23E5EC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMapRadialCircleDemo-swift/Pods-AMapRadialCircleDemo-swift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FED4408EE5C2E12066EEF770 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AMapRadialCircleDemo/Pods-AMapRadialCircleDemo-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AMapRadialCircleDemo/Pods-AMapRadialCircleDemo-resources.sh",
 				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMapRadialCircleDemo/Pods-AMapRadialCircleDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AMapRadialCircleDemo/Pods-AMapRadialCircleDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -645,7 +614,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OBJC_BRIDGING_HEADER = "./AMapRadialCircleDemo-swift/Swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -665,7 +634,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = openPlatformInhouse;
 				SWIFT_OBJC_BRIDGING_HEADER = "./AMapRadialCircleDemo-swift/Swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
